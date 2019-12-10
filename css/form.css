@@ -1,0 +1,66 @@
+/*start blog*/
+.blog{background-color:var(--bg-gray);padding:20px 0 60px 0}
+.blog-title h2,.form-title h2{margin-bottom:10px;font-size:30px}
+.blog-title .line,.form-title .line
+{
+	width:40px;
+	height:3px;
+	border:0;
+	background-color:var(--maincolor);
+	margin:auto;
+	margin-bottom:70px;
+	transition:all .5s
+}
+.blog-title:hover .line,.form-title:hover .line
+{
+	width:120px
+}
+.blog-items{width:31%;background-color:var(--whitecolor)}
+.blog-items.mg{margin:0 3.5%}
+.blog-items-img img{width:100%}
+.blog-info{padding:20px}
+.blog-list{margin:10px 0;padding-left:0}
+.blog-list li{display:inline-block;margin:5px 2px;font-size:14px}
+.blog-info h2{font-size:18px;line-height:1.4}
+.blog-info p {line-height:1.5;color:var(--graycolor);}
+.blog-info a,.blog-list li i {color:var(--maincolor)}
+/*end blog*/
+
+/*start form*/
+.form{background-color:var(--whitecolor)}
+.form-items{width:31%;margin:10px}
+.form-items i {color:var(--maincolor)}
+.form-items h3{color:#212020;}
+.form-items span{color:var(--graycolor)}
+.form-input{width:65%;margin:50px auto}
+
+.form-input input[type="text"]
+{
+	background-color:#DDD;
+	color:var(--whitecolor);
+	border:0;
+	padding:10px;
+	margin-bottom:20px
+}
+.form-input .name {width:49%;margin-right:2%}
+.form-input .email {width:48%}
+.form-input .sub{width:100%}
+.form-input textarea
+{
+	background-color:#ddd;
+	color:var(--whitecolor);
+	border:0;
+	padding:7px;
+	height:70px;
+	width:100%;
+	margin-bottom:10px
+}
+.form-input input[type="submit"]
+{
+	background-color:var(--maincolor);
+	color:var(--whitecolor);
+	border:0;
+	margin:10px 0 20px 220px;
+	padding:12px 20px;
+}
+/*end form*/

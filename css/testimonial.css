@@ -1,0 +1,91 @@
+/*start numbers*/
+.numbers
+{
+   position:relative;
+   background-image:url(../images/background/background2.webp);
+   background-size:cover;
+   background-attachment:fixed;
+   height:300px
+}
+.numbers-items{padding:10px 0}
+.number-items{width:25%;margin-top:70px}
+.number-items i{color:var(--maincolor);margin-bottom:7px}
+.number-items-title
+{
+	color:var(--whitecolor);
+	font-size:30px;
+	font-weight:bold;
+	margin:10px
+}
+.number-items-text{color:var(--whitecolor)}
+/*end numbers*/
+
+/*start pricing*/
+.pricing-title h2{margin-bottom:10px;font-size:30px}
+.pricing-title .line
+{
+	width:30px;
+	height:3px;
+	border:0;
+	background-color:var(--maincolor);
+	margin:auto;
+	margin-bottom:50px;
+	transition:all .5s
+}
+.pricing-title:hover .line
+{
+	width:120px
+}
+.pricing-items{width:31%;padding:40px 15px;border:1px solid #DDD; margin-bottom:50px}
+.pricing-items.mg{margin:0 3.5%}
+.pricing-items-text{font-size:18px;color:#2b2929;transition:all .5s}
+.pricing-items-circle 
+{
+	width:110px;
+	height:110px;
+	padding:15px 0;
+	margin:20px auto;
+	border:2px solid var(--maincolor);
+	border-radius:50%;
+	transition:all .5s
+}
+.pricing-items-circle .month{font-weight:bold;font-size:16px}
+.pricing-items-circle .doller{font-size:45px;margin:0}
+.pricing-list{padding:0}
+.pricing-list li{color:var(--graycolor);line-height:1.5}
+.pricing-items-button
+{
+	background:none;
+    margin: 15px auto 0 auto;
+	padding:10px;
+    border: 2px solid var(--maincolor);
+	color:var(--maincolor);
+	width:120px
+}
+.pricing-items:hover .pricing-items-circle{color:var(--whitecolor);}
+.pricing-items:hover .pricing-items-text{color:var(--maincolor);}
+/*end pricing*/
+/*start testimonial*/
+.testimonial
+{
+	position:relative;
+	background-image:url(../images/background/background3.webp);
+	background-attachment:fixed;
+	background-size:cover;
+	height:300px
+}
+.testimonial-content{padding:70px 0;width:80%;margin:auto}
+.testimonial-items{width:50%;color:var(--whitecolor)}
+.testimonial-items .testimonial-toplayer{position:relative;padding:10px 10px 20px 85px;}
+.testimonial-items .testimonial-toplayer img
+{   
+    position:absolute;
+	width:60px;
+	top:10px; 
+	left:10px;
+	border-radius:50%
+}
+.testimonial-items .testimonial-toplayer h3{margin:5px 0;font-size:18px}
+.testimonial-items .testimonial-toplayer span{color:var(--maincolor);font-size:17px}
+.testimonial-items  p{line-height:1.5; font-size:17px;margin:10px}
+/*end testimonial*/

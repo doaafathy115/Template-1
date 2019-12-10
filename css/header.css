@@ -1,0 +1,68 @@
+/*start main Rules*/
+*{box-sizing:border-box}
+body
+{
+	font-family:Arial;
+	font-size:15px
+}
+:root {--maincolor:#6195ff;
+       --graycolor:#999;
+	   --whitecolor:#fff;
+       --bg-gray:#f9f9f9
+}	
+/*end main Rules*/
+
+/*start header*/
+.header
+{
+	position:fixed;
+	width:100%;
+	z-index:1;
+	background-color:rgba(0,0,0,0.4)
+}
+.header .logo{width:40%;margin-top:5px}
+.header .logo img{width:25%}
+.header .nav{width:60%}
+.header ul li{display:inline-block}
+
+.header  ul li a 
+{
+	color:var(--whitecolor);
+	text-decoration:none;
+	display:block;
+	padding:7px
+}
+.header  ul li a.active:after,
+.header  ul li a:after
+{
+	content:"";
+	display:block;
+	height:3px;
+	background-color:var(--maincolor);
+	margin-top:2px;
+	transition:width .5s
+}
+.header  ul li a.active:after,
+.header  ul  li a:hover:after{width:100%}
+.header ul li a:after{width:0%}
+.dropdown{position:relative}
+.dropdown-menu
+{
+	position:absolute;
+	background-color:var(--maincolor);
+	width:130px;
+	left:-190%;
+	opacity:0;
+	visibility:hidden;
+	transition:all .5s;
+	padding:0
+}
+.dropdown-menu a 
+{
+	color:var(--whitecolor);
+	display:block;
+	padding:10px;
+	text-decoration:none;
+}
+.dropdown:hover .dropdown-menu{opacity:1;visibility:visible}
+/*end header*/

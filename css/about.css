@@ -1,0 +1,30 @@
+/*start About*/
+.about .about-title{margin-top:90px;margin-bottom:10px;font-size:30px}
+.about .title .line
+{
+	width:40px;
+	height:3px;
+	border:0;
+	background-color:var(--maincolor);
+	margin:auto;
+	margin-bottom:70px;
+	transition:all .5s
+}
+.about .title:hover .line
+{
+	width:120px
+}
+.content-info div
+{
+	padding: 35px 20px;
+    width: 31%;
+    border: 1px solid #ddd;
+	margin-bottom:30px
+}
+.content-info .center{margin-right:3.5%;margin-left:3.5%}
+.content-info i {color:var(--maincolor)}
+.content-info h3{color:#615656;transition:color .5s}
+.info .content-info p{color:var(--graycolor);line-height:1.5}
+.content-info a{text-decoration:none;color:var(--maincolor)}
+.info-item:hover h3{color:var(--whitecolor);}
+/*end About*/
