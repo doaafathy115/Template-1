@@ -39,3 +39,8 @@
 .uppercase{text-transform:uppercase}
 .capitalize{text-transform:capitalize}
 .overflow {overflow:hidden}
+
+.header,.home,.about,.offer,
+.service,.portofolio,.numbers,
+.pricing,.testimonial,.team,
+.blog,.form,.footer
